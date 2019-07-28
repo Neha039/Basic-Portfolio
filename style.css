@@ -1,0 +1,25 @@
+
+h1 {
+                
+    Background:color: #4aaaa5;
+    font-family: verdana;
+    font-size: 300%;
+}
+
+
+/*floating the links to the top right hand corner*/
+a{float:right;}
+
+/*making sure heading 2 dosn't float*/
+h2{float:none;}
+
+/*floating the image to the left of the txt*/
+img {float:left;}
+
+p  {
+color: red;
+font-family: courier;
+font-size: 160%;
+}
+
+  
