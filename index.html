@@ -3,58 +3,51 @@
   <!-- Invisible matter that is used to render the page correctly-->
   <head>
     <meta charset="UTF-8" />
-
+    
     <!-- Defines the title of the website as shown on the web pages tab-->
-    <title>Some basic information about me</title>
+    <title>Portfolio-Neha Nehru</title>
 
     <!-- Link added to the CSS styling code-->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <style>
-        h1 {
-                
-                Background:color: #4aaaa5;
-                font-family: verdana;
-                font-size: 300%;
-            }
-
-            
-            a{float:right;}
-            h2{float:none;}
-            img {float:left;}
-p  {
-  color: red;
-  font-family: courier;
-  font-size: 160%;
-}
-    
-    </style>
-
-   </head>
+  </head>
 
   <!-- Actual content of the webpage-->
   <body>
-    <!--Heading #1-->
-    <h1>Neha Nehru</h1>
+    <!--Creating an ID for the header called topHead-->
+    <header id = "topHead">
+      <!--Creating a div that separates the header from the rest of the page called container-->
+      <div class = "container">
+        <!--Main Heading with an ID called name-->
+        <a href="index.html" id="name">Neha Nehru</a>
+        <!--For navigation bar-->
+        <nav>
+          <!--Adding links to other pages saved in the same folder under navigation bar-->
+          <a href ="index.html" > About Me </a>
+          <a href="contact.html" > Contact </a>
+          <a href="portfolio.html" > Portfolio </a>
+        </nav>
+      </div>
+    </header>
 
-    <!--Adding links to other pages saved in the same folder-->
-    <a href ="index.html" > About Me </a>
-    <a href="contact.html" > Contact </a>
-    <a href="portfolio.html" > Portfolio </a>
+    <div id ="container-body" class = "container">
+      <section class = "summary-section">
+        <!-- Heading #1-->
+        <h1>About Me</h1>
 
-    <!-- Heading #2-->
-    <h2>About Me</h2>
+        <!--Adding an image from a different folder and file under class prof-img-->
+        <img 
+          src="assets/images/capture.jpg"
+          class ="prof-img"
+          alt="Profile Pic"
+        >
 
-    <!--Adding an image from a different folder and file-->
-    <img
-      src="assets/images/capture.jpg"
-      alt="Profile Pic"
-    >
-
-    <!-- Block Material-->
-    <p>
-      This portion i am going to fill out later with things about myself. my personal interests, my experience in life, my edcational background, my job experience and anything that willadd to my paragraph like i am doing right now.
-    </p>
-
-    </body>
+        <!-- Block Material-->
+        <p>Hello, everyone! My name is Neha Nehru and I am currently a student of full stack web devlopment.</p>
+        <p>I chose this field as I have a background and interest in different programming languages.</p>
+        <p>This certificate will not only help me in gaining a vast amount of knowledge and information in</p>
+        <p>web devlopment but will also serve as a base for my future studies. Besides programming I also have a </p>
+        <P>background in banking primarly dealing with investments, mortgages and management.</P>
+      </section>
+    </div>
+  </body>
 </html>
